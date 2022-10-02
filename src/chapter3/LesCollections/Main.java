@@ -2,6 +2,7 @@ package chapter3.LesCollections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -47,7 +48,7 @@ public class Main {
 		//System.out.println(tab[2]);*/
 		
 		// generics (Java v5)
-		
+		/*
 		List<String> names = new ArrayList<>();
 		names.add("Amine");
 		names.add("true");
@@ -56,7 +57,16 @@ public class Main {
 		for(Object obj : names)
 		{
 			String temp = (String)obj;
-		}
+		}*/
+		
+		List<String> names = new ArrayList<>();
+		names.add("bb");
+		names.add("aa");
+		names.add("dd");
+		names.add("cc");
+		System.out.println(names);
+		Collections.sort(names);
+		System.out.println(names);
 
 
 	}
