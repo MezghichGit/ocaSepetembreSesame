@@ -37,7 +37,7 @@ public class Main {
 		
 		// Les tableaux multi-dimensions
 		
-		String[][]names = {{"A","B","C"},{"AA","BB"},{"AAA","BBB","CCCC","EEEFT"}};
+		String names[][]= {{"A","B","C"},{"AA","BB"},{"AAA","BBB","CCCC","EEEFT"}};
 		
 		for(String [] tab: names)
 		{
@@ -47,6 +47,10 @@ public class Main {
 			}
 			System.out.println();
 		}
+		
+		//int [][]tab2,x;  // les deux(tab2 et x) à deux dimensions
+		
+		int []tab2[],x;   // tab2  2 dimensions mais x tableau à 1 dimension
 	}
 
 }
